@@ -60,9 +60,9 @@
 					<configuration>
 						<defaultLibBundleDir>lib</defaultLibBundleDir>
 						<!-- 源代码编译版本 -->
-						<source>1.7</source>
+						<source>1.8</source>
 						<!-- 目标平台编译版本 -->
-						<target>1.7</target>
+						<target>1.8</target>
 						<!-- 字符集编码 -->
 						<encoding>${project.build.sourceEncoding}</encoding>
 						<!-- -->
