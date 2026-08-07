@@ -104,7 +104,7 @@
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>findbugs-maven-plugin</artifactId>
-                    <version>3.0.4</version>
+                    <version>3.0.5</version>
                     <executions>
                         <execution>
                             <phase>verify</phase>
@@ -342,7 +342,7 @@
             <dependency>
                 <groupId>io.dropwizard.metrics</groupId>
                 <artifactId>metrics-core</artifactId>
-                <version>${metrics.version}</version>
+                <version>4.2.20</version>
             </dependency>
             <!-- For Metrics -->
             <dependency>
@@ -354,7 +354,7 @@
             <dependency>
                 <groupId>io.dropwizard.metrics</groupId>
                 <artifactId>metrics-healthchecks</artifactId>
-                <version>${metrics.version}</version>
+                <version>4.0.1</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/org.jboss.resteasy/resteasy-jaxrs -->
             <dependency>
