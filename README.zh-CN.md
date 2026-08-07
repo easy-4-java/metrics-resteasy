@@ -4,6 +4,8 @@
 
 [![Java](https://img.shields.io/badge/Java-8-orange)](https://github.com/easy-4-java/metrics-resteasy) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
 
+metrics-resteasy 将 Dropwizard Metrics（metrics-core 4.1.1）与 RESTEasy JAX-RS 应用集成。
+
 > **项目状态**：`feature/1.0.x` 版本线维护中（JDK 8）。制品尚未发布到 Maven Central，通过项目私服与 GitHub Releases 分发。
 
 ## 目录
