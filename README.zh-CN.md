@@ -2,11 +2,11 @@
 
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
-[![Java](https://img.shields.io/badge/Java-8-orange)](https://github.com/easy-4-java/metrics-resteasy) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
+[![Java](https://img.shields.io/badge/Java-21-orange)](https://github.com/easy-4-java/metrics-resteasy) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
 
 metrics-resteasy 将 Dropwizard Metrics（metrics-core 4.1.1）与 RESTEasy JAX-RS 应用集成。
 
-> **项目状态**：`feature/1.0.x` 版本线维护中（JDK 8）。制品尚未发布到 Maven Central，通过项目私服与 GitHub Releases 分发。
+> **项目状态**：`feature/3.0.x` 版本线维护中（JDK 8）。制品尚未发布到 Maven Central，通过项目私服与 GitHub Releases 分发。
 
 ## 目录
 
@@ -59,7 +59,7 @@ metrics-resteasy 将 Dropwizard Metrics（metrics-core 4.1.1）与 RESTEasy JAX-
 
 | 项目 | 要求 |
 | :--- | :--- |
-| JDK | 8+ |
+| JDK | 21+ |
 | Maven | 3.0+（内置 Maven Wrapper `mvnw`） |
 | 依赖 | resteasy-jaxrs 3.9.0.Final、metrics-core 4.1.1、metrics-annotation、metrics-healthchecks、guava 33.6.0-jre、slf4j-api 2.0.18、javax.servlet-api（provided）、lombok（provided）；junit 4.13.2（测试） |
 
@@ -100,14 +100,14 @@ MetricRegistry (metrics-core 4.1.1)
 <dependency>
     <groupId>io.github.easy4j</groupId>
     <artifactId>metrics-resteasy</artifactId>
-    <version>1.0.x.20260630-SNAPSHOT</version>
+    <version>3.0.x.x.20260630-SNAPSHOT</version>
 </dependency>
 ```
 
 Gradle：
 
 ```groovy
-implementation 'io.github.easy4j:metrics-resteasy:1.0.x.20260630-SNAPSHOT'
+implementation 'io.github.easy4j:metrics-resteasy:3.0.x.x.20260630-SNAPSHOT'
 ```
 
 快照版本由项目私服提供（见 pom 中 `distributionManagement`）。尚未发布 Maven Central 正式版。
@@ -192,7 +192,7 @@ TimedInterceptor interceptor = new TimedInterceptor(timer); // 过滤器对，�
 | `feature/2.0.x` | 17 | `2.0.x.*` | 并行维护 |
 | `feature/3.0.x` | 21 | `3.0.x.*` | 并行维护 |
 
-本分支快照版本为 `1.0.x.20260630-SNAPSHOT`。
+本分支快照版本为 `3.0.x.x.20260630-SNAPSHOT`。
 
 ## 11. 贡献与许可
 

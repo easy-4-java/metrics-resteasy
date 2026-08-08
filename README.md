@@ -2,11 +2,11 @@
 
 [English](./README.md) | [简体中文](./README.zh-CN.md)
 
-[![Java](https://img.shields.io/badge/Java-8-orange)](https://github.com/easy-4-java/metrics-resteasy) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
+[![Java](https://img.shields.io/badge/Java-21-orange)](https://github.com/easy-4-java/metrics-resteasy) [![License](https://img.shields.io/badge/license-Apache%202.0-green)](./LICENSE)
 
 metrics-resteasy integrates Dropwizard Metrics (metrics-core 4.1.1) with RESTEasy JAX-RS applications
 
-> **Status**: maintained on the `feature/1.0.x` line (JDK 8). Artifacts are not yet published to Maven Central; they are distributed through the project's private repository and GitHub Releases.
+> **Status**: maintained on the `feature/3.0.x` line (JDK 8). Artifacts are not yet published to Maven Central; they are distributed through the project's private repository and GitHub Releases.
 
 ## Table of Contents
 
@@ -59,7 +59,7 @@ Typical scenarios:
 
 | Item | Requirement |
 | :--- | :--- |
-| JDK | 8+ |
+| JDK | 21+ |
 | Maven | 3.0+ (Maven Wrapper `mvnw` included) |
 | Dependencies | resteasy-jaxrs 3.9.0.Final, metrics-core 4.1.1, metrics-annotation, metrics-healthchecks, guava 33.6.0-jre, slf4j-api 2.0.18, javax.servlet-api (provided), lombok (provided); junit 4.13.2 (test) |
 
@@ -100,14 +100,14 @@ Single-module jar with three classes in `com.codahale.metrics.resteasy`:
 <dependency>
     <groupId>io.github.easy4j</groupId>
     <artifactId>metrics-resteasy</artifactId>
-    <version>1.0.x.20260630-SNAPSHOT</version>
+    <version>3.0.x.x.20260630-SNAPSHOT</version>
 </dependency>
 ```
 
 Gradle:
 
 ```groovy
-implementation 'io.github.easy4j:metrics-resteasy:1.0.x.20260630-SNAPSHOT'
+implementation 'io.github.easy4j:metrics-resteasy:3.0.x.x.20260630-SNAPSHOT'
 ```
 
 The snapshot is served from the project's private repository (see `distributionManagement` in the pom). No Maven Central release is available yet.
@@ -192,7 +192,7 @@ Three parallel version lines, each bound to a JDK baseline:
 | `feature/2.0.x` | 17 | `2.0.x.*` | Maintained in parallel |
 | `feature/3.0.x` | 21 | `3.0.x.*` | Maintained in parallel |
 
-Snapshots on this branch are versioned `1.0.x.20260630-SNAPSHOT`.
+Snapshots on this branch are versioned `3.0.x.x.20260630-SNAPSHOT`.
 
 ## 11. Contributing & License
 
