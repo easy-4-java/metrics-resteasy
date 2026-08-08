@@ -35,7 +35,7 @@ import java.io.IOException;
  * <p>The interceptor holds no state of its own beyond the supplied meter;
  * each invocation simply calls {@link Meter#mark()} on the meter.</p>
  *
- * @author easy-4-java contributors
+ * @author [@Loong Wan](https://github.com/loong10k)
  * @since 3.0.0
  * @see Meter
  * @see MetricsFeature

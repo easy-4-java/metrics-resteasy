@@ -56,7 +56,7 @@ import static com.codahale.metrics.MetricRegistry.name;
  * {@link ConstrainedTo}{@code (RuntimeType.SERVER)} so it is only
  * instantiated on the server side of JAX-RS.</p>
  *
- * @author easy-4-java contributors
+ * @author [@Loong Wan](https://github.com/loong10k)
  * @since 3.0.0
  * @see DynamicFeature
  * @see Timed
