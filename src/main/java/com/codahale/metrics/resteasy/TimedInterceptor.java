@@ -40,7 +40,7 @@ import java.io.IOException;
  * same resource invocation, so the {@code context} field can reliably be
  * used to correlate the timing start and stop.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see Timer
  * @see MetricsFeature

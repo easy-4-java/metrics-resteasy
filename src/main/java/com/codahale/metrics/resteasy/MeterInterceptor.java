@@ -35,7 +35,7 @@ import java.io.IOException;
  * <p>The interceptor holds no state of its own beyond the supplied meter;
  * each invocation simply calls {@link Meter#mark()} on the meter.</p>
  *
- * @author [@Loong Wan](https://github.com/loong10k)
+ * @author <a href="https://github.com/loong10k">Loong Wan</a>
  * @since 3.0.0
  * @see Meter
  * @see MetricsFeature
