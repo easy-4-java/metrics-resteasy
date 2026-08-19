@@ -293,7 +293,7 @@
         <!-- ═══ 第一段: 基础属性（自然排序）═══ -->
             <java.version>17</java.version>
             <maven.compiler.release>${java.version}</maven.compiler.release>
-        <maven.version>3.9.16</maven.version>
+        <maven.version>4.0.0-rc-5</maven.version>
             <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
             <!-- Dependency versions -->
             <guava.version>33.6.0-jre</guava.version>
